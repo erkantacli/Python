@@ -1,7 +1,7 @@
 import random
 import sys
 
-#Falscheingaben möglich machen
+#Falscheingaben möglich machen test
 def zahl_einlesen(text, min, max):
     while True:
         try:
