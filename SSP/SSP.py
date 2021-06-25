@@ -48,5 +48,3 @@ while counter < Runden:
     counter = counter + 1
 
 print("\n")
-
-#test
