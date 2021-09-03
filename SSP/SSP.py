@@ -2,7 +2,7 @@ import random
 
 counter = 0
 
-print("\n")
+print("\n") # Leerzeile für die Optik
 
 Runden = 0
 while Runden == 0:
@@ -21,25 +21,25 @@ while counter < Runden:
     print("Wahl vom Computer:", computer)
 
 
-    if mensch == "schere" and computer == "papier":
+    if mensch   == "schere" and computer == "papier":
         print("---> Du hast gewonnen!")
     elif mensch == "papier" and computer == "stein":
         print("---> Du hast gewonnen!")
-    elif mensch == "stein" and computer == "schere":
+    elif mensch == "stein"  and computer == "schere":
         print("---> Du hast gewonnen!")
 
     elif mensch == "schere" and computer == "stein":
         print("---> Du hast verloren!")
     elif mensch == "papier" and computer == "schere":
         print("---> Du hast verloren!")
-    elif mensch == "stein" and computer == "papier":
+    elif mensch == "stein"  and computer == "papier":
         print("---> Du hast verloren!")
 
     elif mensch == "schere" and computer == "schere":
         print("---> Unentschieden!")
-    elif mensch == "papier" and computer == "papier":
+    elif mensch == "papier" and computer == "papier": 
         print("---> Unentschieden!")
-    elif mensch == "stein" and computer == "stein":
+    elif mensch == "stein"  and computer == "stein":
         print("---> Unentschieden!")
 
     else:
